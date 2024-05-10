@@ -1,6 +1,6 @@
 import StatusLabel, {
   Status,
-} from "./components/UIKit/ActiveLabel/StatusLabel";
+} from "./components/UIKit/StatusLabel/StatusLabel";
 
 export default function Home() {
   return (

@@ -15,7 +15,11 @@ export enum Status {
   Suspended = "suspended",
 }
 
-function StatusLabel({ children, status, disabled }: IStatusLabelProps) {
+export default function StatusLabel({
+  children,
+  status,
+  disabled,
+}: IStatusLabelProps) {
   return (
     <div
       className={clsx(
@@ -34,4 +38,3 @@ function StatusLabel({ children, status, disabled }: IStatusLabelProps) {
     </div>
   );
 }
-export default StatusLabel;
