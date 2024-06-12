@@ -14,6 +14,7 @@ const CompanyFormModal = dynamic(
 
 export default function AddCompanyButton() {
   const [show, setShow] = useState(false);
+
   return (
     <>
       <Button onClick={() => setShow(true)}>Add company</Button>
